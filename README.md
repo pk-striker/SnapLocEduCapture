@@ -12,13 +12,6 @@ As a seasoned web developer, I'm thrilled to unveil my latest creation housed wi
 - Recent enhancements ensure smooth operation across various devices.
 - Rigorous testing guarantees reliability and performance.
 
-**Installation Made Easy:**
-
-To get started, simply run the following commands:
-
-```bash
-composer require mobiledetect/mobiledetectlib:^4.8 matomo/device-detector:^3.13
-```
 
 **Discord Webhook Integration:**
 
