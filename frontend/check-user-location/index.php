@@ -1,4 +1,5 @@
-<?php include_once('../../backend/generate_token.php');
+<?php 
+include_once('../../backend/generate_token.php');
 include('../../forms/index.php');?>
 
 <!DOCTYPE html>
