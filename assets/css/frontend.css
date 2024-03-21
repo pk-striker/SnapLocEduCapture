@@ -1,0 +1,59 @@
+/* styles.css */
+.frame {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black; /* Blue border */
+}
+
+#canvas {
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 480px;
+    background-color: #f0f0f0; /* Light gray */
+}
+
+#video {
+    width: 640px;
+    height: 480px;
+    background-color: #e0e0e0; /* Lighter gray */
+}
+
+#capture-btn {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #27ae60; /* Green border */
+    background-color: #2ecc71; /* Green button */
+    color: #fff; /* White text */
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#capture-btn:hover {
+    background-color: #27ae60; /* Dark green hover */
+}
+
+
+#message-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff; /* White background */
+    border: 2px solid #e74c3c; /* Red border */
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 1; /* Initially hidden */
+    transition: opacity 0.5s ease; /* Smooth transition */
+}
+
+#capture-btn:hover + #message-container {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Responsive design for smaller devices */
+    #canvas, #video {
+        width: 100%;
+    }
+}
